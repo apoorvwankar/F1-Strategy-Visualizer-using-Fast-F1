@@ -10,7 +10,6 @@ pandas==2.2.3
 pillow==11.1.0
 pyparsing==3.2.1
 pytz==2025.1
-pywin32==308
 RapidFuzz==3.12.1
 requests-cache==1.2.1
 scipy==1.15.2
