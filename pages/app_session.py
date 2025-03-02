@@ -1,6 +1,11 @@
 import streamlit as st
 import fastf1 as ff1
+import os
 
+cache_dir = 'fastf1_cache'
+if not os.path.exists(cache_dir):
+    os.makedirs(cache_dir)
+    
 # Enable FastF1 cache
 ff1.Cache.enable_cache('fastf1_cache')
 
